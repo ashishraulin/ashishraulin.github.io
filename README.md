@@ -18,3 +18,22 @@ This site showcases my skills, projects, and experience as a **Frontend Develope
 
 ## 📁 Project Structure
 
+---
+
+## 📌 Projects Highlighted
+
+- **GestureBoard** – Touchless virtual keyboard using OpenCV & Python.
+- **Sentiment Classifier** – Built with NLP, TensorFlow, and Scikit-learn.
+- **StyleHub** – Online fashion store with responsive UI.
+- **Cloud File Storage** – Secure cloud file app with AWS S3/EC2 & REST APIs.
+
+---
+
+## 📞 Contact Me
+
+- **Email**: [ashishraulin@gmail.com](mailto:ashishraulin@gmail.com)
+- **Phone**: [+91 97980 06459](tel:+919798006459)
+- **LinkedIn**: [linkedin.com/in/ashishraulin](https://linkedin.com/in/ashishraulin)
+- **GitHub**: [github.com/ashishraulin](https://github.com/ashishraulin)
+
+---
