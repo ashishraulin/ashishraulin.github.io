@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashish Raj | Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f7fc;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #1e1e2f;
+      color: #fff;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 60px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    h2 {
+      color: #1e1e2f;
+      margin-bottom: 20px;
+    }
+    .skills-grid, .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e2f;
+      color: white;
+    }
+    a {
+      color: #1e90ff;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ashish Raj</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hi! I'm Ashish Raj, a Frontend Developer and Tech Enthusiast with hands-on experience in software development, machine learning, and cloud platforms. I enjoy building scalable web apps and exploring the intersection of AI and user experience.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="card"><strong>Languages:</strong><br>Python, C, C++, JavaScript, SQL</div>
+    <div class="card"><strong>Frontend:</strong><br>React, Flutter, HTML/CSS, REST APIs</div>
+    <div class="card"><strong>AI/ML:</strong><br>TensorFlow, PyTorch, Scikit-learn, Transformers</div>
+    <div class="card"><strong>Cloud & Tools:</strong><br>AWS, GCP, Azure, Docker, Kubernetes</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="card"><strong>GestureBoard</strong><br>A touchless virtual keyboard using OpenCV & Python with hand gesture recognition.</div>
+    <div class="card"><strong>Sentiment Classifier</strong><br>Built using NLP, TensorFlow and Scikit-learn. Integrated with a dynamic review dashboard.</div>
+    <div class="card"><strong>StyleHub</strong><br>Responsive fashion e-store using HTML, CSS, and JS with dynamic filters.</div>
+    <div class="card"><strong>Cloud File Storage</strong><br>A secure file app using AWS S3, EC2, and IAM with REST APIs and auth.</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:ashishraulin@gmail.com">ashishraulin@gmail.com</a></p>
+  <p>Phone: <a href="tel:+919798006459">+91 97980 06459</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/ashishraulin" target="_blank">linkedin.com/in/ashishraulin</a></p>
+  <p>GitHub: <a href="https://github.com/ashishraulin" target="_blank">github.com/ashishraulin</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Ashish Raj. Built with ❤️ and a love for clean code.</p>
+</footer>
+
+</body>
+</html>
